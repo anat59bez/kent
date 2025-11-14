@@ -1,0 +1,135 @@
+═══════════════════════════════════════════════════════════════
+  СТРУКТУРА ПРОЕКТА KENT
+═══════════════════════════════════════════════════════════════
+
+📁 kent/
+│
+├── 📄 build.gradle.kts              # Корневой Gradle файл
+├── 📄 settings.gradle.kts            # Настройки проекта
+├── 📄 gradle.properties              # Gradle свойства
+├── 📄 .gitignore                     # Git ignore
+├── 📄 LICENSE                        # Лицензия
+├── 📄 README.md                      # Главный README
+├── 📄 PROJECT_SUMMARY.md             # Резюме проекта
+│
+├── 📁 app/                           # Главный модуль приложения
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   └── src/main/
+│       ├── AndroidManifest.xml
+│       ├── java/com/kent/app/
+│       │   ├── KentApplication.kt
+│       │   ├── MainActivity.kt
+│       │   └── navigation/
+│       │       └── KentNavigation.kt
+│       └── res/
+│           ├── values/
+│           │   ├── strings.xml
+│           │   └── themes.xml
+│           └── xml/
+│               ├── backup_rules.xml
+│               ├── data_extraction_rules.xml
+│               └── file_paths.xml
+│
+├── 📁 core/                          # Core модули
+│   ├── ui/                           # UI компоненты и тема
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/core/ui/theme/
+│   │       ├── Color.kt
+│   │       ├── Type.kt
+│   │       ├── Theme.kt
+│   │       └── Package.kt
+│   │
+│   ├── network/                      # Сетевой слой
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/core/network/
+│   │       ├── KentApiService.kt
+│   │       └── Package.kt
+│   │
+│   ├── crypto/                        # Шифрование
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/core/crypto/
+│   │       └── Package.kt
+│   │
+│   ├── database/                     # База данных
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/core/database/
+│   │       └── Package.kt
+│   │
+│   └── common/                        # Общие утилиты
+│       ├── build.gradle.kts
+│       └── src/main/java/com/kent/core/common/
+│           └── Package.kt
+│
+├── 📁 feature/                        # Feature модули
+│   ├── auth/                          # Авторизация
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/feature/auth/
+│   │       ├── AuthScreen.kt
+│   │       └── Package.kt
+│   │
+│   ├── chat/                          # Чаты
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/feature/chat/
+│   │       ├── ChatListScreen.kt
+│   │       └── Package.kt
+│   │
+│   ├── ai/                            # AI ассистент
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/feature/ai/
+│   │       ├── AiAssistantScreen.kt
+│   │       └── Package.kt
+│   │
+│   ├── calls/                         # Звонки
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/feature/calls/
+│   │       └── Package.kt
+│   │
+│   ├── stories/                       # Сторис
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/feature/stories/
+│   │       └── Package.kt
+│   │
+│   ├── settings/                      # Настройки
+│   │   ├── build.gradle.kts
+│   │   └── src/main/java/com/kent/feature/settings/
+│   │       └── Package.kt
+│   │
+│   └── profile/                       # Профиль
+│       ├── build.gradle.kts
+│       └── src/main/java/com/kent/feature/profile/
+│           └── Package.kt
+│
+├── 📁 server/                         # Go сервер
+│   ├── go.mod
+│   ├── go.sum
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── cmd/api/
+│       └── main.go
+│   └── internal/
+│       ├── config/
+│       │   └── config.go
+│       ├── database/
+│       │   ├── postgres.go
+│       │   └── redis.go
+│       └── api/
+│           ├── routes.go
+│           ├── handlers.go
+│           └── middleware.go
+│
+└── 📁 docs/                           # Документация
+    ├── ARCHITECTURE.md
+    ├── API.md
+    ├── SECURITY.md
+    ├── GOOGLE_PLAY.md
+    └── GETTING_STARTED.md
+
+═══════════════════════════════════════════════════════════════
+  ИТОГО: ~60+ файлов
+═══════════════════════════════════════════════════════════════
+
+Все файлы созданы и готовы к использованию!
+
+Проект находится в: C:\Users\Vik\Desktop\kent
+

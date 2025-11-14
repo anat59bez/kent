@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kent</string>
+    
+    <!-- Auth -->
+    <string name="auth_phone_number">Phone Number</string>
+    <string name="auth_enter_code">Enter verification code</string>
+    <string name="auth_resend_code">Resend code</string>
+    <string name="auth_continue">Continue</string>
+    
+    <!-- Chat -->
+    <string name="chat_list_title">Chats</string>
+    <string name="chat_search">Search</string>
+    <string name="chat_new_message">New message</string>
+    <string name="chat_empty">No chats yet</string>
+    
+    <!-- AI -->
+    <string name="ai_assistant_title">Kent.AI</string>
+    <string name="ai_ask_anything">Ask anything...</string>
+    <string name="ai_send">Send</string>
+    
+    <!-- Calls -->
+    <string name="call_incoming">Incoming call</string>
+    <string name="call_accept">Accept</string>
+    <string name="call_decline">Decline</string>
+    
+    <!-- Common -->
+    <string name="error_network">Network error</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+</resources>
+
